@@ -13,8 +13,14 @@ while True :
         print("stopped")
         break
 
-print (person)
-print (person.items())
+ages = list(person.values())
+print (ages)
 
-for (key,value) in person.items() :
-    print (f"{key} is {value}")
+i=0
+for age in set(ages) :
+    count = ages.count(age)
+    print(f'{age} years old - {count}')
+# print (person.items())
+
+# for (key,value) in person.items() :
+#     print (f"{key} is {value}")
