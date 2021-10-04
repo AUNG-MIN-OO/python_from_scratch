@@ -13,9 +13,7 @@ class Car :
     def common(cls):
         print(f'all car have only {cls.sterring} sterring wheel')
 
-lambo = Car("lamboghini",4)
-marcedes = Car("marcedes",6)
-lambo.common()
+
 # print(Car.common())
 
 # lambo.drive()
